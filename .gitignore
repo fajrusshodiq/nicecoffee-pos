@@ -1,0 +1,36 @@
+# PHP
+*.php~
+*.phtml
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+config/config.local.php
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+tmp/
+temp/
+
+# Database backups
+database/backups/
+*.sql.bak
+
+# Node modules (jika pakai)
+node_modules/
+
+# Composer
+vendor/
+composer.lock
